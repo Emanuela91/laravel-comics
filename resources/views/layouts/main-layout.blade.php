@@ -9,6 +9,8 @@
     @yield('head')
 </head>
 <body>
+
+    @include('components.header')
     {{-- segnaposto contenuto in home --}}
     @yield('content')
 </body>
