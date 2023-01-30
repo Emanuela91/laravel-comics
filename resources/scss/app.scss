@@ -12,6 +12,30 @@ body {
 
 #navbar li {
     list-style: none;
+
+}
+
+.selected {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+#search {
+    height: fit-content;
+    align-self: center;
+
+    input {
+        border: none;
+        text-align: end;
+        border-radius: 0;
+        border-bottom: 2px solid blue;
+    }
+
+    button {
+        border: none;
+        background-color: white;
+        border-bottom: 2px solid blue;
+    }
 }
 
 #jumbotron {
